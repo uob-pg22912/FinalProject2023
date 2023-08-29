@@ -1,0 +1,6324 @@
+[
+  {
+    "type": "node",
+    "label": "Idempotence",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "Idempotence",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "_login_attempts",
+    "target": "login",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "_login_attempts->login"
+  },
+  {
+    "type": "node",
+    "label": " login attempts",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "_login_attempts",
+    "kg": "rkg",
+    "alternativelabels": [
+      "too many attempts"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "academic research",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "academic_research",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "access_control_list",
+    "source": "access_control",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "access_control->access_control_list"
+  },
+  {
+    "type": "relation",
+    "target": "awareness_training",
+    "source": "access_control",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "access_control->awareness_training"
+  },
+  {
+    "type": "relation",
+    "target": "boundary_protection",
+    "source": "access_control",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "access_control->boundary_protection"
+  },
+  {
+    "type": "relation",
+    "target": "credentials",
+    "source": "access_control",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "access_control->credentials"
+  },
+  {
+    "type": "relation",
+    "target": "discretionary_access_control",
+    "source": "access_control",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "access_control->discretionary_access_control"
+  },
+  {
+    "type": "relation",
+    "target": "firewall",
+    "source": "access_control",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "access_control->firewall"
+  },
+  {
+    "type": "relation",
+    "target": "list_based_access_control",
+    "source": "access_control",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "access_control->list_based_access_control"
+  },
+  {
+    "type": "relation",
+    "target": "mandatory_access_control",
+    "source": "access_control",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "access_control->mandatory_access_control"
+  },
+  {
+    "type": "relation",
+    "target": "nda",
+    "source": "access_control",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "access_control->nda"
+  },
+  {
+    "type": "relation",
+    "target": "parental_control",
+    "source": "access_control",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "access_control->parental_control"
+  },
+  {
+    "type": "relation",
+    "target": "quarantine",
+    "source": "access_control",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "access_control->quarantine"
+  },
+  {
+    "type": "relation",
+    "target": "read_access",
+    "source": "access_control",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "access_control->read_access"
+  },
+  {
+    "type": "relation",
+    "target": "register",
+    "source": "access_control",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "access_control->register"
+  },
+  {
+    "type": "relation",
+    "target": "role_based_access_control",
+    "source": "access_control",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "access_control->role_based_access_control"
+  },
+  {
+    "type": "relation",
+    "target": "state",
+    "source": "access_control",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "access_control->state"
+  },
+  {
+    "type": "relation",
+    "target": "webid",
+    "source": "access_control",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "access_control->webid"
+  },
+  {
+    "type": "relation",
+    "target": "write_access",
+    "source": "access_control",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "access_control->write_access"
+  },
+  {
+    "type": "relation",
+    "target": "ws-security",
+    "source": "access_control",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "access_control->ws-security"
+  },
+  {
+    "type": "node",
+    "label": "access control",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "access_control",
+    "kg": "rkg",
+    "alternativelabels": [
+      "x509",
+      "webfinger",
+      "saml",
+      "oauth",
+      "openid",
+      "kerberos"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "access control list",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "access_control_list",
+    "kg": "rkg",
+    "alternativelabels": [
+      "ACL",
+      "access list"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "access token",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "access_token",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "account management",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "account_management",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "accountability",
+    "ntype": "GATEWAY",
+    "exclusive": false,
+    "inclusive": false,
+    "parallel": true,
+    "min": "NA",
+    "uid": "accountability",
+    "principle": true
+  },
+  {
+    "type": "node",
+    "label": "accuracy",
+    "ntype": "GATEWAY",
+    "exclusive": false,
+    "inclusive": false,
+    "parallel": true,
+    "min": "NA",
+    "uid": "accuracy",
+    "principle": true
+  },
+  {
+    "type": "node",
+    "label": "acknowledged",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "acknowledged",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "active",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "active",
+    "kg": "rkg",
+    "alternativelabels": [
+      "running"
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "advertising",
+    "target": "generate_leads",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "advertising->generate_leads"
+  },
+  {
+    "type": "relation",
+    "target": "personalised_advertising",
+    "source": "advertising",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "advertising->personalised_advertising"
+  },
+  {
+    "type": "node",
+    "label": "advertising",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "advertising",
+    "kg": "rkg",
+    "alternativelabels": [
+      "ad",
+      "ads"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "aead",
+    "ntype": "PROPERTY",
+    "uid": "aead"
+  },
+  {
+    "type": "node",
+    "label": "aggregation",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "aggregation",
+    "kg": "rkg",
+    "alternativelabels": [
+      "aggregate"
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "differential_privacy",
+    "source": "anonymization",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "anonymization->differential_privacy"
+  },
+  {
+    "type": "node",
+    "label": "anonymization",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "anonymization",
+    "kg": "rkg",
+    "alternativelabels": [
+      "anonymisation",
+      "anonymize",
+      "k-anonymity",
+      "l-diversity",
+      "t-closeness",
+      "anonymous"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "anonymous login",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "anonymous_login",
+    "kg": "rkg",
+    "alternativelabels": [
+      "anonymous sign in"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "anti terrorism operations",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "anti_terrorism_operations",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "archive data",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "archive_data",
+    "kg": "rkg",
+    "alternativelabels": [
+      "archiving"
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "asymmetric_encryption",
+    "target": "ssl",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "asymmetric_encryption->ssl"
+  },
+  {
+    "type": "relation",
+    "target": "tls",
+    "source": "asymmetric_encryption",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "asymmetric_encryption->tls"
+  },
+  {
+    "type": "node",
+    "label": "asymmetric encryption",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "asymmetric_encryption",
+    "kg": "rkg",
+    "alternativelabels": [
+      "OpenSSL",
+      "EJBCA",
+      "XiPKI",
+      "XCA",
+      "DogTag",
+      "CFSSL",
+      "Vault",
+      "Boulder",
+      "public key encryption"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "attacks mitigation",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "attacks_mitigation",
+    "kg": "rkg",
+    "alternativelabels": [
+      "Server Side Request Forgery",
+      "SSRF",
+      "Advanced persistent threats",
+      "APT",
+      "denial-of-service",
+      "DoS",
+      "Man-in-the-middle",
+      "MITM",
+      "Phishing",
+      "Whale-phishing",
+      "Spear-phishing",
+      "Ransomware",
+      "SQL Injection",
+      "URL interpretation",
+      "DNS Spoofing",
+      "DNS Tunneling",
+      "Session Hijacking",
+      "Brute force",
+      "Insider Threat",
+      "Trojan horse",
+      "cross-site scripting",
+      "XSS",
+      "Eavesdropping",
+      "Malware",
+      "Credential Reuse",
+      "Spyware",
+      "Ransomware",
+      "Worms",
+      "Malvertising",
+      "Pharming",
+      "Zero-day Exploit",
+      "Rootkits",
+      "Vishing",
+      "Pretexting",
+      "Scareware",
+      "Diversion theft",
+      "Tailgating",
+      "piggybacking",
+      "Botnets",
+      "Smurf",
+      "TCP SYN flood",
+      "spoofing",
+      "Pass-the-hash",
+      "Golden ticket",
+      "Machine-in-the-Middle",
+      "MITM",
+      "Watering Hole",
+      "Cryptojacking"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "auditing",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "auditing",
+    "kg": "rkg",
+    "alternativelabels": [
+      "audit"
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "authentication_history",
+    "source": "authentication",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "authentication->authentication_history"
+  },
+  {
+    "type": "relation",
+    "target": "captcha",
+    "source": "authentication",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "authentication->captcha"
+  },
+  {
+    "type": "relation",
+    "target": "login",
+    "source": "authentication",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "authentication->login"
+  },
+  {
+    "type": "relation",
+    "target": "logout",
+    "source": "authentication",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "authentication->logout"
+  },
+  {
+    "type": "relation",
+    "target": "multi-factor_authentication",
+    "source": "authentication",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "authentication->multi-factor_authentication"
+  },
+  {
+    "type": "relation",
+    "target": "single_factor_authentication",
+    "source": "authentication",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "authentication->single_factor_authentication"
+  },
+  {
+    "type": "relation",
+    "target": "verification_code",
+    "source": "authentication",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "authentication->verification_code"
+  },
+  {
+    "type": "node",
+    "label": "authentication",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "authentication",
+    "kg": "rkg",
+    "alternativelabels": [
+      "authenticating",
+      "auth",
+      "reauthenticate",
+      "authenticate",
+      "unauthenticate",
+      "deauthenticate"
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "authentication_history",
+    "target": "_login_attempts",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "authentication_history->_login_attempts"
+  },
+  {
+    "type": "relation",
+    "source": "authentication_history",
+    "target": "location_history",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "authentication_history->location_history"
+  },
+  {
+    "type": "node",
+    "label": "authentication history",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "authentication_history",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "authorization",
+    "target": "access_control",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "authorization->access_control"
+  },
+  {
+    "type": "node",
+    "label": "authorization",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "authorization",
+    "kg": "rkg",
+    "alternativelabels": [
+      "authorisation",
+      "authorised",
+      "unauthorised"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "awareness training",
+    "ntype": "PROPERTY",
+    "uid": "awareness_training"
+  },
+  {
+    "type": "node",
+    "label": "backup",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "backup",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "dna",
+    "source": "biometric",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "biometric->dna"
+  },
+  {
+    "type": "relation",
+    "target": "ear",
+    "source": "biometric",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "biometric->ear"
+  },
+  {
+    "type": "relation",
+    "target": "face",
+    "source": "biometric",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "biometric->face"
+  },
+  {
+    "type": "relation",
+    "target": "finger_geometry",
+    "source": "biometric",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "biometric->finger_geometry"
+  },
+  {
+    "type": "relation",
+    "target": "finger_print",
+    "source": "biometric",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "biometric->finger_print"
+  },
+  {
+    "type": "relation",
+    "target": "gait",
+    "source": "biometric",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "biometric->gait"
+  },
+  {
+    "type": "relation",
+    "target": "hand_geometry",
+    "source": "biometric",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "biometric->hand_geometry"
+  },
+  {
+    "type": "relation",
+    "target": "iris",
+    "source": "biometric",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "biometric->iris"
+  },
+  {
+    "type": "relation",
+    "target": "mouse_movement",
+    "source": "biometric",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "biometric->mouse_movement"
+  },
+  {
+    "type": "relation",
+    "target": "odour",
+    "source": "biometric",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "biometric->odour"
+  },
+  {
+    "type": "relation",
+    "target": "palm",
+    "source": "biometric",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "biometric->palm"
+  },
+  {
+    "type": "relation",
+    "target": "profiling",
+    "source": "biometric",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "biometric->profiling"
+  },
+  {
+    "type": "relation",
+    "target": "retina",
+    "source": "biometric",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "biometric->retina"
+  },
+  {
+    "type": "relation",
+    "target": "signature",
+    "source": "biometric",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "biometric->signature"
+  },
+  {
+    "type": "relation",
+    "target": "speaker",
+    "source": "biometric",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "biometric->speaker"
+  },
+  {
+    "type": "relation",
+    "target": "typing",
+    "source": "biometric",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "biometric->typing"
+  },
+  {
+    "type": "relation",
+    "target": "vein",
+    "source": "biometric",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "biometric->vein"
+  },
+  {
+    "type": "relation",
+    "target": "voice",
+    "source": "biometric",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "biometric->voice"
+  },
+  {
+    "type": "node",
+    "label": "biometric",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "biometric",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "blake",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "blake",
+    "kg": "rkg",
+    "alternativelabels": [
+      "Botan",
+      "Bouncy Castle",
+      "Crypto++",
+      "Libgcrypt",
+      "libsodium",
+      "OpenSSL",
+      "wolfSSL"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "boundary protection",
+    "ntype": "PROPERTY",
+    "uid": "boundary_protection"
+  },
+  {
+    "type": "node",
+    "label": "cancelled",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "cancelled",
+    "kg": "rkg",
+    "alternativelabels": [
+      "canceled"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "captcha",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "captcha",
+    "kg": "rkg",
+    "alternativelabels": [
+      "recaptcha"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "cbc",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "cbc",
+    "kg": "rkg",
+    "alternativelabels": [
+      "cipher block chaining"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "certificate authority",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "certificate_authority",
+    "kg": "rkg",
+    "alternativelabels": [
+      "IdenTrust",
+      "DigiCert",
+      "Sectigo",
+      "Encrypt",
+      "GlobalSign",
+      "Certum",
+      "Actalis",
+      "Secom Trust",
+      "Entrust",
+      "E-Tugra",
+      "WISeKey"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "checksum",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "checksum",
+    "kg": "rkg",
+    "alternativelabels": [
+      "cksum",
+      "md5sum",
+      "sha1sum",
+      "sum",
+      "parchive",
+      "SYSV",
+      "BSD",
+      "xxHash",
+      "BSD checksum",
+      "SYSV checksum",
+      "sum8",
+      "Internet Checksum",
+      "sum24",
+      "sum32",
+      "fletcher-4",
+      "fletcher-8",
+      "fletcher-16",
+      "fletcher-32",
+      "Adler-32",
+      "xor8",
+      "Luhn",
+      "Verhoeff",
+      "Damm",
+      "check digits",
+      "parity bits",
+      "parity byte",
+      "sum complement",
+      "position-dependent",
+      "fuzzy checksum",
+      "damm",
+      "check digit"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "cipher",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "cipher",
+    "kg": "rkg",
+    "alternativelabels": [
+      "AES",
+      "Advanced Encryption",
+      "GCM",
+      "Galois-Counter Mode",
+      "Camellia",
+      "Camellia GCM",
+      "AES CBC",
+      "Camellia CBC",
+      "ARIA GCM",
+      "ARIA CBC",
+      "SEED CBC",
+      "Triple DES",
+      "3DES"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "ciphertext",
+    "ntype": "PROPERTY",
+    "uid": "ciphertext"
+  },
+  {
+    "type": "node",
+    "label": "clear database",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "clear_database",
+    "kg": "rkg",
+    "alternativelabels": [
+      "clear file",
+      "delete file",
+      "clear storage",
+      "delete storage",
+      "cleanup",
+      "delete app",
+      "clear app",
+      "unset",
+      "reconfigure",
+      "clear",
+      "restore"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "clone",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "clone",
+    "kg": "rkg",
+    "alternativelabels": [
+      "copy",
+      "replicate",
+      "duplicate"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "commercial research",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "commercial_research",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "communication for customer care",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "communication_for_customer_care",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "communication_management",
+    "target": "communication_for_customer_care",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "communication_management->communication_for_customer_care"
+  },
+  {
+    "type": "node",
+    "label": "communication management",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "communication_management",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "confidentiality",
+    "target": "anonymization",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "confidentiality->anonymization"
+  },
+  {
+    "type": "relation",
+    "source": "confidentiality",
+    "target": "attacks_mitigation",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "confidentiality->attacks_mitigation"
+  },
+  {
+    "type": "relation",
+    "source": "confidentiality",
+    "target": "authentication",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "confidentiality->authentication"
+  },
+  {
+    "type": "relation",
+    "source": "confidentiality",
+    "target": "authorization",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "confidentiality->authorization"
+  },
+  {
+    "type": "relation",
+    "source": "confidentiality",
+    "target": "decryption",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "confidentiality->decryption"
+  },
+  {
+    "type": "relation",
+    "source": "confidentiality",
+    "target": "encryption",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "confidentiality->encryption"
+  },
+  {
+    "type": "relation",
+    "target": "sandbox",
+    "source": "confidentiality",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "confidentiality->sandbox"
+  },
+  {
+    "type": "relation",
+    "target": "steganography",
+    "source": "confidentiality",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "confidentiality->steganography"
+  },
+  {
+    "type": "node",
+    "label": "confidentiality",
+    "principle": true,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "confidentiality",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "consent_individual_rights",
+    "source": "consent",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "consent->consent_individual_rights"
+  },
+  {
+    "type": "relation",
+    "source": "consent",
+    "target": "consent_platform",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "consent->consent_platform"
+  },
+  {
+    "type": "relation",
+    "source": "consent",
+    "target": "consent_settings",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "consent->consent_settings"
+  },
+  {
+    "type": "node",
+    "label": "consent",
+    "principle": false,
+    "lawfulbasis": true,
+    "individualright": false,
+    "uid": "consent",
+    "kg": "rkg",
+    "alternativelabels": [
+      "parental consent"
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "consent_individual_rights",
+    "target": "right_of_access",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "consent_individual_rights->right_of_access"
+  },
+  {
+    "type": "relation",
+    "source": "consent_individual_rights",
+    "target": "right_to_data_portability",
+    "mandatory": false,
+    "weight": 1,
+    "uid": "consent_individual_rights->right_to_data_portability"
+  },
+  {
+    "type": "relation",
+    "source": "consent_individual_rights",
+    "target": "right_to_erasure",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "consent_individual_rights->right_to_erasure"
+  },
+  {
+    "type": "relation",
+    "source": "consent_individual_rights",
+    "target": "right_to_restrict_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "consent_individual_rights->right_to_restrict_processing"
+  },
+  {
+    "type": "relation",
+    "source": "consent_individual_rights",
+    "target": "right_to_retification",
+    "mandatory": false,
+    "weight": 1,
+    "uid": "consent_individual_rights->right_to_retification"
+  },
+  {
+    "type": "node",
+    "label": "consent individual rights",
+    "ntype": "GATEWAY",
+    "exclusive": false,
+    "inclusive": false,
+    "parallel": true,
+    "min": "NA",
+    "uid": "consent_individual_rights"
+  },
+  {
+    "type": "node",
+    "label": "consent platform",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "consent_platform",
+    "kg": "rkg",
+    "alternativelabels": [
+      "admiral",
+      "adnutius",
+      "adzapier",
+      "appconsent",
+      "associated newspapers",
+      "axel",
+      "bedrock",
+      "beintoo",
+      "bidstack",
+      "borlabs",
+      "civic",
+      "clickio",
+      "commanders act",
+      "complianz",
+      "consent desk",
+      "consentmanager",
+      "conversant",
+      "cookie information aps",
+      "cookiebot",
+      "cookiehub",
+      "devowl",
+      "didomi",
+      "easybrain",
+      "ensighten evidon",
+      "ezoic",
+      "fastcmp",
+      "gemius sa",
+      "gravito",
+      "idailybread",
+      "impala",
+      "iubenda",
+      "jump group",
+      "ketch kloud",
+      "liveramp",
+      "lovoo",
+      "madvertise",
+      "mairdumont netletix",
+      "marfeel solutions",
+      "mediavine",
+      "mobile-de",
+      "next14",
+      "nextroll",
+      "objectis",
+      "ogury",
+      "onesecondbefore",
+      "onetag",
+      "onetrust",
+      "optad360",
+      "osano",
+      "papoo",
+      "playwire",
+      "prosiebensat",
+      "quadrant",
+      "quantcast",
+      "rakuten",
+      "rcs mediagroup",
+      "redge",
+      "reisinfomatiegroep",
+      "ringier axel springer polska",
+      "secure privacy",
+      "securiti",
+      "seers",
+      "sexnam",
+      "sharethis",
+      "shinystat",
+      "sibbo",
+      "singlespot",
+      "sirdata",
+      "smaato",
+      "sigel",
+      "sourcepoint",
+      "sub2 technologies",
+      "teaching aids",
+      "traffective",
+      "transfon",
+      "truendo",
+      "trustarc",
+      "ucfunnel",
+      "usercentrics",
+      "webads",
+      "xite"
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "state",
+    "source": "consent_settings",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "consent_settings->state"
+  },
+  {
+    "type": "node",
+    "label": "consent settings",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "consent_settings",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "contract_individual_rights",
+    "source": "contract",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "contract->contract_individual_rights"
+  },
+  {
+    "type": "node",
+    "label": "contract",
+    "principle": false,
+    "lawfulbasis": true,
+    "individualright": false,
+    "uid": "contract",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "contract_individual_rights",
+    "target": "right_of_access",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "contract_individual_rights->right_of_access"
+  },
+  {
+    "type": "relation",
+    "source": "contract_individual_rights",
+    "target": "right_to_data_portability",
+    "mandatory": false,
+    "weight": 1,
+    "uid": "contract_individual_rights->right_to_data_portability"
+  },
+  {
+    "type": "relation",
+    "source": "contract_individual_rights",
+    "target": "right_to_restrict_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "contract_individual_rights->right_to_restrict_processing"
+  },
+  {
+    "type": "relation",
+    "source": "contract_individual_rights",
+    "target": "right_to_retification",
+    "mandatory": false,
+    "weight": 1,
+    "uid": "contract_individual_rights->right_to_retification"
+  },
+  {
+    "type": "node",
+    "label": "contract individual rights",
+    "ntype": "GATEWAY",
+    "exclusive": false,
+    "inclusive": false,
+    "parallel": true,
+    "min": "NA",
+    "uid": "contract_individual_rights"
+  },
+  {
+    "type": "node",
+    "label": "controller",
+    "ntype": "GATEWAY",
+    "exclusive": false,
+    "inclusive": false,
+    "parallel": true,
+    "min": "NA",
+    "uid": "controller"
+  },
+  {
+    "type": "node",
+    "label": "copyright",
+    "ntype": "PROPERTY",
+    "uid": "copyright"
+  },
+  {
+    "type": "node",
+    "label": "counter money laundering",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "counter_money_laundering",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "create_personalised_recommendations",
+    "target": "create_product_recommendations",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "create_personalised_recommendations->create_product_recommendations"
+  },
+  {
+    "type": "node",
+    "label": "create personalised recommendations",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "create_personalised_recommendations",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "create product recommendations",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "create_product_recommendations",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "credentials",
+    "target": "access_token",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "credentials->access_token"
+  },
+  {
+    "type": "relation",
+    "target": "biometric",
+    "source": "credentials",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "credentials->biometric"
+  },
+  {
+    "type": "relation",
+    "target": "certificate_authority",
+    "source": "credentials",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "credentials->certificate_authority"
+  },
+  {
+    "type": "relation",
+    "target": "digital_signature",
+    "source": "credentials",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "credentials->digital_signature"
+  },
+  {
+    "type": "relation",
+    "source": "credentials",
+    "target": "key",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "credentials->key"
+  },
+  {
+    "type": "relation",
+    "target": "passport",
+    "source": "credentials",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "credentials->passport"
+  },
+  {
+    "type": "relation",
+    "target": "password",
+    "source": "credentials",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "credentials->password"
+  },
+  {
+    "type": "relation",
+    "target": "pin_code",
+    "source": "credentials",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "credentials->pin_code"
+  },
+  {
+    "type": "relation",
+    "target": "secrets_manager",
+    "source": "credentials",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "credentials->secrets_manager"
+  },
+  {
+    "type": "relation",
+    "target": "tls-ssl_certificate",
+    "source": "credentials",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "credentials->tls-ssl_certificate"
+  },
+  {
+    "type": "relation",
+    "target": "username",
+    "source": "credentials",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "credentials->username"
+  },
+  {
+    "type": "node",
+    "label": "credentials",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "credentials",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "maintain_credit_checking_database",
+    "source": "credit_checking",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "credit_checking->maintain_credit_checking_database"
+  },
+  {
+    "type": "node",
+    "label": "credit checking",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "credit_checking",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "customer_care",
+    "target": "communication_for_customer_care",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "customer_care->communication_for_customer_care"
+  },
+  {
+    "type": "node",
+    "label": "customer care",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "customer_care",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "customer claim management",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "customer_claim_management",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "customer_management",
+    "target": "customer_care",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "customer_management->customer_care"
+  },
+  {
+    "type": "relation",
+    "source": "customer_management",
+    "target": "customer_claim_management",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "customer_management->customer_claim_management"
+  },
+  {
+    "type": "relation",
+    "source": "customer_management",
+    "target": "customer_order_management",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "customer_management->customer_order_management"
+  },
+  {
+    "type": "relation",
+    "source": "customer_management",
+    "target": "customer_relationship_management",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "customer_management->customer_relationship_management"
+  },
+  {
+    "type": "relation",
+    "source": "customer_management",
+    "target": "customer_solvency_monitoring",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "customer_management->customer_solvency_monitoring"
+  },
+  {
+    "type": "node",
+    "label": "customer management",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "customer_management",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "customer order management",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "customer_order_management",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "customer relationship management",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "customer_relationship_management",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "customer_solvency_monitoring",
+    "target": "credit_checking",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "customer_solvency_monitoring->credit_checking"
+  },
+  {
+    "type": "node",
+    "label": "customer solvency monitoring",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "customer_solvency_monitoring",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "data_deletion",
+    "target": "clear_database",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_deletion->clear_database"
+  },
+  {
+    "type": "node",
+    "label": "data deletion",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "data_deletion",
+    "kg": "rkg",
+    "alternativelabels": [
+      "secure erase",
+      "delete",
+      "remove",
+      "destroy",
+      "del",
+      "unregister",
+      "leave"
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "aggregation",
+    "source": "data_minimisation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_minimisation->aggregation"
+  },
+  {
+    "type": "relation",
+    "source": "data_minimisation",
+    "target": "anonymization",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_minimisation->anonymization"
+  },
+  {
+    "type": "relation",
+    "target": "generalization",
+    "source": "data_minimisation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_minimisation->generalization"
+  },
+  {
+    "type": "relation",
+    "target": "homomorphic_encryption",
+    "source": "data_minimisation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_minimisation->homomorphic_encryption"
+  },
+  {
+    "type": "relation",
+    "source": "data_minimisation",
+    "target": "pseudonymisation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_minimisation->pseudonymisation"
+  },
+  {
+    "type": "relation",
+    "target": "randomization",
+    "source": "data_minimisation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_minimisation->randomization"
+  },
+  {
+    "type": "relation",
+    "target": "substitution",
+    "source": "data_minimisation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_minimisation->substitution"
+  },
+  {
+    "type": "relation",
+    "target": "zero-knowledge_proof",
+    "source": "data_minimisation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_minimisation->zero-knowledge_proof"
+  },
+  {
+    "type": "node",
+    "label": "data minimisation",
+    "principle": true,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "data_minimisation",
+    "kg": "rkg",
+    "alternativelabels": [
+      "quasi-identifier",
+      "unlinkability",
+      "re-identification",
+      "inference",
+      "singling out"
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "accountability",
+    "source": "data_protection",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_protection->accountability"
+  },
+  {
+    "type": "relation",
+    "target": "accuracy",
+    "source": "data_protection",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_protection->accuracy"
+  },
+  {
+    "type": "relation",
+    "target": "confidentiality",
+    "source": "data_protection",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_protection->confidentiality"
+  },
+  {
+    "type": "relation",
+    "source": "data_protection",
+    "target": "data_minimisation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_protection->data_minimisation"
+  },
+  {
+    "type": "relation",
+    "source": "data_protection",
+    "target": "fairness",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_protection->fairness"
+  },
+  {
+    "type": "relation",
+    "target": "integrity",
+    "source": "data_protection",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_protection->integrity"
+  },
+  {
+    "type": "relation",
+    "target": "lawfulness",
+    "source": "data_protection",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_protection->lawfulness"
+  },
+  {
+    "type": "relation",
+    "target": "purpose_limitation",
+    "source": "data_protection",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_protection->purpose_limitation"
+  },
+  {
+    "type": "relation",
+    "source": "data_protection",
+    "target": "storage_limitation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_protection->storage_limitation"
+  },
+  {
+    "type": "relation",
+    "target": "transparency",
+    "source": "data_protection",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_protection->transparency"
+  },
+  {
+    "type": "node",
+    "label": "data protection",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "data_protection",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "data protection impact assessment",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "data_protection_impact_assessment",
+    "kg": "rkg",
+    "alternativelabels": [
+      "DPIA"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "data protection officer",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "data_protection_officer",
+    "kg": "rkg",
+    "alternativelabels": [
+      "DPO"
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "data_recovery",
+    "target": "backup",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_recovery->backup"
+  },
+  {
+    "type": "relation",
+    "source": "data_recovery",
+    "target": "password_reset",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_recovery->password_reset"
+  },
+  {
+    "type": "relation",
+    "source": "data_recovery",
+    "target": "recovery_email",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_recovery->recovery_email"
+  },
+  {
+    "type": "node",
+    "label": "data recovery",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "data_recovery",
+    "kg": "rkg",
+    "alternativelabels": [
+      "recovery"
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "archive_data",
+    "source": "data_retention_policy",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_retention_policy->archive_data"
+  },
+  {
+    "type": "relation",
+    "source": "data_retention_policy",
+    "target": "data_deletion",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_retention_policy->data_deletion"
+  },
+  {
+    "type": "relation",
+    "source": "data_retention_policy",
+    "target": "data_minimisation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_retention_policy->data_minimisation"
+  },
+  {
+    "type": "relation",
+    "target": "disaster_recovery",
+    "source": "data_retention_policy",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_retention_policy->disaster_recovery"
+  },
+  {
+    "type": "relation",
+    "source": "data_retention_policy",
+    "target": "retention_period",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_retention_policy->retention_period"
+  },
+  {
+    "type": "relation",
+    "target": "sandbox",
+    "source": "data_retention_policy",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "data_retention_policy->sandbox"
+  },
+  {
+    "type": "node",
+    "label": "data retention policy",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "data_retention_policy",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "decipher",
+    "ntype": "PROPERTY",
+    "uid": "decipher"
+  },
+  {
+    "type": "node",
+    "label": "decryption",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "decryption",
+    "kg": "rkg",
+    "alternativelabels": [
+      "decrypt"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "delivery of goods",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "delivery_of_goods",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "denied",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "denied",
+    "kg": "rkg",
+    "alternativelabels": [
+      "rejected",
+      "reject"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "differential privacy",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "differential_privacy",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "digital signature",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "digital_signature",
+    "kg": "rkg",
+    "alternativelabels": [
+      "Botan",
+      "Bouncy Castle",
+      "cryptlib",
+      "Crypto++",
+      "Libgcrypt",
+      "Nettle",
+      "OpenSSL",
+      "wolfCrypt",
+      "GnuTLS",
+      "mbed TLS",
+      "LibreSSL",
+      "Microsoft CryptoAPI",
+      "Crypto API",
+      "OpenSSH",
+      "GnuPG",
+      "NaCl",
+      "libsodium",
+      "CryptoNote",
+      "wolfSSL",
+      "I2Pd",
+      "Minisign",
+      "Minisign Miscellanea",
+      "Virgil PKI",
+      "Dropbear SSH",
+      "javafxpackager",
+      "jarsigner",
+      "Cardano"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "direct marketing",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "direct_marketing",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "disabled",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "disabled",
+    "kg": "rkg",
+    "alternativelabels": [
+      "paused",
+      "blocked"
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "disaster_recovery",
+    "target": "data_recovery",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "disaster_recovery->data_recovery"
+  },
+  {
+    "type": "node",
+    "label": "disaster recovery",
+    "ntype": "PROPERTY",
+    "uid": "disaster_recovery"
+  },
+  {
+    "type": "node",
+    "label": "discretionary access control",
+    "ntype": "PROPERTY",
+    "uid": "discretionary_access_control",
+    "sameas": "DAC"
+  },
+  {
+    "type": "node",
+    "label": "dna",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "dna",
+    "kg": "rkg",
+    "alternativelabels": [
+      "genetic code",
+      "dna code"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "download",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "download",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "ear",
+    "ntype": "PROPERTY",
+    "uid": "ear"
+  },
+  {
+    "type": "node",
+    "label": "enabled",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "enabled",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "asymmetric_encryption",
+    "source": "encryption",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "encryption->asymmetric_encryption"
+  },
+  {
+    "type": "relation",
+    "target": "cipher",
+    "source": "encryption",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "encryption->cipher"
+  },
+  {
+    "type": "relation",
+    "target": "hash_function",
+    "source": "encryption",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "encryption->hash_function"
+  },
+  {
+    "type": "relation",
+    "target": "key",
+    "source": "encryption",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "encryption->key"
+  },
+  {
+    "type": "relation",
+    "target": "one-way_encryption",
+    "source": "encryption",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "encryption->one-way_encryption"
+  },
+  {
+    "type": "relation",
+    "target": "secure_hash",
+    "source": "encryption",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "encryption->secure_hash"
+  },
+  {
+    "type": "relation",
+    "target": "secure_mime",
+    "source": "encryption",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "encryption->secure_mime"
+  },
+  {
+    "type": "node",
+    "label": "encryption",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "encryption",
+    "kg": "rkg",
+    "alternativelabels": [
+      "vpn",
+      "des",
+      "Format-preserving encryption",
+      "FPE",
+      "encrypt"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "enforce access control",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "enforce_access_control",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "enforce_security",
+    "target": "anti_terrorism_operations",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "enforce_security->anti_terrorism_operations"
+  },
+  {
+    "type": "relation",
+    "source": "enforce_security",
+    "target": "enforce_access_control",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "enforce_security->enforce_access_control"
+  },
+  {
+    "type": "relation",
+    "source": "enforce_security",
+    "target": "fraud_prevention_and_detection",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "enforce_security->fraud_prevention_and_detection"
+  },
+  {
+    "type": "relation",
+    "source": "enforce_security",
+    "target": "identity_verification",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "enforce_security->identity_verification"
+  },
+  {
+    "type": "node",
+    "label": "enforce security",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "enforce_security",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "expiration date",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "expiration_date",
+    "kg": "rkg",
+    "alternativelabels": [
+      "payment card expiry",
+      "expires in",
+      "expiration interval"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "expired",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "expired",
+    "kg": "rkg",
+    "alternativelabels": [
+      "access expired",
+      "expire",
+      "ttl",
+      "time to live"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "face",
+    "ntype": "PROPERTY",
+    "uid": "face"
+  },
+  {
+    "type": "relation",
+    "source": "fairness",
+    "target": "impact_assessment",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "fairness->impact_assessment"
+  },
+  {
+    "type": "relation",
+    "target": "necessity_test",
+    "source": "fairness",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "fairness->necessity_test"
+  },
+  {
+    "type": "node",
+    "label": "fairness",
+    "principle": true,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "fairness",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "finger geometry",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "finger_geometry",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "finger print",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "finger_print",
+    "kg": "rkg",
+    "alternativelabels": [
+      "fingerprint"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "firewall",
+    "ntype": "PROPERTY",
+    "uid": "firewall"
+  },
+  {
+    "type": "node",
+    "label": "first party processor",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "first_party_processor",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "fraud_prevention_and_detection",
+    "target": "counter_money_laundering",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "fraud_prevention_and_detection->counter_money_laundering"
+  },
+  {
+    "type": "relation",
+    "source": "fraud_prevention_and_detection",
+    "target": "maintain_fraud_database",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "fraud_prevention_and_detection->maintain_fraud_database"
+  },
+  {
+    "type": "node",
+    "label": "fraud prevention and detection",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "fraud_prevention_and_detection",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "gait",
+    "ntype": "PROPERTY",
+    "uid": "gait"
+  },
+  {
+    "type": "node",
+    "label": "generalization",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "generalization",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "generate leads",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "generate_leads",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "granted",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "granted",
+    "kg": "rkg",
+    "alternativelabels": [
+      "success"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "hand geometry",
+    "ntype": "PROPERTY",
+    "uid": "hand_geometry"
+  },
+  {
+    "type": "node",
+    "label": "hash function",
+    "ntype": "PROPERTY",
+    "uid": "hash_function",
+    "sameas": "salted-hash function"
+  },
+  {
+    "type": "node",
+    "label": "hashing",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "hashing",
+    "kg": "rkg",
+    "alternativelabels": [
+      "pearson hashing",
+      "Paul Hsiehs SuperFastHash",
+      "Buzhash",
+      "Fowler–Noll–Vo hash function",
+      "FNV Hash",
+      "Jenkins hash function",
+      "Bernsteins hash djb2",
+      "PJW hash",
+      "Elf Hash",
+      "MurmurHash",
+      "Fast-Hash",
+      "SpookyHash",
+      "CityHash",
+      "FarmHash",
+      "MetroHash",
+      "numeric hash",
+      "xxHash",
+      "t1ha",
+      "pHash",
+      "dhash",
+      "SDBM",
+      "BLAKE2",
+      "BLAKE3",
+      "HMAC",
+      "KMAC",
+      "MD6",
+      "One-key MAC",
+      "OMAC",
+      "CMAC",
+      "PMAC",
+      "Poly1305-AES",
+      "SipHash",
+      "HighwayHash",
+      "UMAC",
+      "VMAC",
+      "BLAKE-256",
+      "BLAKE-512",
+      "BLAKE2s",
+      "BLAKE2b",
+      "BLAKE2X",
+      "BLAKE3",
+      "ECOH",
+      "FSB",
+      "GOST",
+      "Grostl",
+      "HAS-160",
+      "HAVAL",
+      "JH",
+      "LSH16",
+      "MD2",
+      "MD4",
+      "MD5",
+      "MD6",
+      "RadioGatun",
+      "RIPEMD",
+      "RIPEMD-128",
+      "RIPEMD-160",
+      "RIPEMD-320",
+      "SHA-1",
+      "SHA-224",
+      "SHA-256",
+      "SHA-384",
+      "SHA-512",
+      "SHA-3",
+      "Skein",
+      "Snefru",
+      "Spectral Hash",
+      "Streebog",
+      "SWIFFT",
+      "Tiger",
+      "Whirlpool"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "hmac-md5",
+    "ntype": "PROPERTY",
+    "uid": "hmac-md5"
+  },
+  {
+    "type": "node",
+    "label": "hmac-sha256",
+    "ntype": "PROPERTY",
+    "uid": "hmac-sha256"
+  },
+  {
+    "type": "node",
+    "label": "homomorphic encryption",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "homomorphic_encryption",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "human_resource_management",
+    "target": "personnel_management",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "human_resource_management->personnel_management"
+  },
+  {
+    "type": "node",
+    "label": "human resource management",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "human_resource_management",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "identify rectify impairments",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "identify_rectify_impairments",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "identity verification",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "identity_verification",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "impact_assessment",
+    "target": "data_protection_impact_assessment",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "impact_assessment->data_protection_impact_assessment"
+  },
+  {
+    "type": "relation",
+    "source": "impact_assessment",
+    "target": "legitimate_interest_impact_assessment",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "impact_assessment->legitimate_interest_impact_assessment"
+  },
+  {
+    "type": "relation",
+    "source": "impact_assessment",
+    "target": "privacy_impact_assessment",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "impact_assessment->privacy_impact_assessment"
+  },
+  {
+    "type": "relation",
+    "target": "vendor_selection_assessment",
+    "source": "impact_assessment",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "impact_assessment->vendor_selection_assessment"
+  },
+  {
+    "type": "node",
+    "label": "impact assessment",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "impact_assessment",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "improve existing products and services",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "improve_existing_products_and_services",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "improve internal crm processes",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "improve_internal_crm_processes",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "inactive",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "inactive",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "increase service robustness",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "increase_service_robustness",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "individual_right",
+    "target": "right_of_access",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "individual_right->right_of_access"
+  },
+  {
+    "type": "relation",
+    "source": "individual_right",
+    "target": "right_to_automated_decision_making",
+    "mandatory": false,
+    "weight": 1,
+    "uid": "individual_right->right_to_automated_decision_making"
+  },
+  {
+    "type": "relation",
+    "source": "individual_right",
+    "target": "right_to_be_informed",
+    "mandatory": false,
+    "weight": 1,
+    "uid": "individual_right->right_to_be_informed"
+  },
+  {
+    "type": "relation",
+    "source": "individual_right",
+    "target": "right_to_data_portability",
+    "mandatory": false,
+    "weight": 1,
+    "uid": "individual_right->right_to_data_portability"
+  },
+  {
+    "type": "relation",
+    "source": "individual_right",
+    "target": "right_to_erasure",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "individual_right->right_to_erasure"
+  },
+  {
+    "type": "relation",
+    "source": "individual_right",
+    "target": "right_to_object",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "individual_right->right_to_object"
+  },
+  {
+    "type": "relation",
+    "source": "individual_right",
+    "target": "right_to_restrict_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "individual_right->right_to_restrict_processing"
+  },
+  {
+    "type": "relation",
+    "source": "individual_right",
+    "target": "right_to_retification",
+    "mandatory": false,
+    "weight": 1,
+    "uid": "individual_right->right_to_retification"
+  },
+  {
+    "type": "node",
+    "label": "individual right",
+    "ntype": "GATEWAY",
+    "exclusive": false,
+    "inclusive": false,
+    "parallel": true,
+    "min": "NA",
+    "uid": "individual_right"
+  },
+  {
+    "type": "relation",
+    "source": "integrity",
+    "target": "Idempotence",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "integrity->Idempotence"
+  },
+  {
+    "type": "relation",
+    "source": "integrity",
+    "target": "attacks_mitigation",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "integrity->attacks_mitigation"
+  },
+  {
+    "type": "relation",
+    "source": "integrity",
+    "target": "auditing",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "integrity->auditing"
+  },
+  {
+    "type": "relation",
+    "source": "integrity",
+    "target": "authentication",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "integrity->authentication"
+  },
+  {
+    "type": "relation",
+    "source": "integrity",
+    "target": "authorization",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "integrity->authorization"
+  },
+  {
+    "type": "relation",
+    "source": "integrity",
+    "target": "checksum",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "integrity->checksum"
+  },
+  {
+    "type": "relation",
+    "target": "copyright",
+    "source": "integrity",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "integrity->copyright"
+  },
+  {
+    "type": "relation",
+    "source": "integrity",
+    "target": "digital_signature",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "integrity->digital_signature"
+  },
+  {
+    "type": "relation",
+    "source": "integrity",
+    "target": "hashing",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "integrity->hashing"
+  },
+  {
+    "type": "relation",
+    "target": "intrusion_detection",
+    "source": "integrity",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "integrity->intrusion_detection"
+  },
+  {
+    "type": "relation",
+    "target": "intrusion_prevention",
+    "source": "integrity",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "integrity->intrusion_prevention"
+  },
+  {
+    "type": "relation",
+    "target": "license",
+    "source": "integrity",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "integrity->license"
+  },
+  {
+    "type": "relation",
+    "target": "network_sniffer",
+    "source": "integrity",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "integrity->network_sniffer"
+  },
+  {
+    "type": "relation",
+    "target": "noninfringement",
+    "source": "integrity",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "integrity->noninfringement"
+  },
+  {
+    "type": "relation",
+    "source": "integrity",
+    "target": "permission_notice",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "integrity->permission_notice"
+  },
+  {
+    "type": "relation",
+    "source": "integrity",
+    "target": "secured_multiparty_Computation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "integrity->secured_multiparty_Computation"
+  },
+  {
+    "type": "relation",
+    "target": "threat_monitoring",
+    "source": "integrity",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "integrity->threat_monitoring"
+  },
+  {
+    "type": "relation",
+    "target": "traffic_analysis",
+    "source": "integrity",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "integrity->traffic_analysis"
+  },
+  {
+    "type": "relation",
+    "target": "warranties",
+    "source": "integrity",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "integrity->warranties"
+  },
+  {
+    "type": "node",
+    "label": "integrity",
+    "principle": true,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "integrity",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "internal resource optimisation",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "internal_resource_optimisation",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "international transfer",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "international_transfer",
+    "kg": "rkg",
+    "alternativelabels": [
+      "third country",
+      "third country transfer",
+      "third party processor"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "intrusion detection",
+    "ntype": "PROPERTY",
+    "uid": "intrusion_detection"
+  },
+  {
+    "type": "node",
+    "label": "intrusion prevention",
+    "ntype": "PROPERTY",
+    "uid": "intrusion_prevention"
+  },
+  {
+    "type": "node",
+    "label": "iris",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "iris",
+    "kg": "rkg",
+    "alternativelabels": [
+      "Iris recognition"
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "key_exchange",
+    "source": "key",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "key->key_exchange"
+  },
+  {
+    "type": "relation",
+    "target": "private_key",
+    "source": "key",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "key->private_key"
+  },
+  {
+    "type": "relation",
+    "target": "public_key",
+    "source": "key",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "key->public_key"
+  },
+  {
+    "type": "relation",
+    "target": "secret_key",
+    "source": "key",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "key->secret_key"
+  },
+  {
+    "type": "node",
+    "label": "key",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "key",
+    "kg": "rkg",
+    "alternativelabels": [
+      "encryption key",
+      "encrypted key"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "key exchange",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "key_exchange",
+    "kg": "rkg",
+    "alternativelabels": [
+      "DH",
+      "diffie–hellman",
+      "ECDH",
+      "elliptic-curve diffie–hellman",
+      "RSA",
+      "rivest–shamir–adleman",
+      "DH-RSA",
+      "ECDH-RSA",
+      "ECDHE-RSA",
+      "DH-DSS",
+      "DHE-DSS",
+      "ECDH-ECDSA",
+      "ECDHE-ECDSA",
+      "ECDHE-EdDSA",
+      "PSK",
+      "pre-shared key",
+      "TLS-PSK",
+      "PSK-RSA",
+      "DHE-PSK",
+      "ECDHE-PSK",
+      "TLS-SRP",
+      "SRP",
+      "secure remote password",
+      "SRP-DSS",
+      "SRP-RSA",
+      "kerberos",
+      "DH-ANON",
+      "ECDH-ANON"
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "consent",
+    "source": "lawful_basis",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "lawful_basis->consent"
+  },
+  {
+    "type": "relation",
+    "target": "contract",
+    "source": "lawful_basis",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "lawful_basis->contract"
+  },
+  {
+    "type": "relation",
+    "target": "legal_obligation",
+    "source": "lawful_basis",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "lawful_basis->legal_obligation"
+  },
+  {
+    "type": "relation",
+    "target": "legitimate_interest",
+    "source": "lawful_basis",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "lawful_basis->legitimate_interest"
+  },
+  {
+    "type": "relation",
+    "target": "public_interest",
+    "source": "lawful_basis",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "lawful_basis->public_interest"
+  },
+  {
+    "type": "relation",
+    "target": "retention_period",
+    "source": "lawful_basis",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "lawful_basis->retention_period"
+  },
+  {
+    "type": "relation",
+    "target": "start_date",
+    "source": "lawful_basis",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "lawful_basis->start_date"
+  },
+  {
+    "type": "relation",
+    "target": "state",
+    "source": "lawful_basis",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "lawful_basis->state"
+  },
+  {
+    "type": "relation",
+    "target": "vital_interest",
+    "source": "lawful_basis",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "lawful_basis->vital_interest"
+  },
+  {
+    "type": "node",
+    "label": "lawful basis",
+    "principle": false,
+    "lawfulbasis": true,
+    "individualright": false,
+    "uid": "lawful_basis",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "lawfulness",
+    "target": "lawful_basis",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "lawfulness->lawful_basis"
+  },
+  {
+    "type": "node",
+    "label": "lawfulness",
+    "ntype": "GATEWAY",
+    "exclusive": false,
+    "inclusive": false,
+    "parallel": true,
+    "min": "NA",
+    "uid": "lawfulness",
+    "principle": true
+  },
+  {
+    "type": "node",
+    "label": "legal compliance",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "legal_compliance",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "legal_obligation_individual_rights",
+    "source": "legal_obligation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "legal_obligation->legal_obligation_individual_rights"
+  },
+  {
+    "type": "node",
+    "label": "legal obligation",
+    "principle": false,
+    "lawfulbasis": true,
+    "individualright": false,
+    "uid": "legal_obligation",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "legal_obligation_individual_rights",
+    "target": "right_of_access",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "legal_obligation_individual_rights->right_of_access"
+  },
+  {
+    "type": "relation",
+    "source": "legal_obligation_individual_rights",
+    "target": "right_to_automated_decision_making",
+    "mandatory": false,
+    "weight": 1,
+    "uid": "legal_obligation_individual_rights->right_to_automated_decision_making"
+  },
+  {
+    "type": "relation",
+    "source": "legal_obligation_individual_rights",
+    "target": "right_to_restrict_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "legal_obligation_individual_rights->right_to_restrict_processing"
+  },
+  {
+    "type": "relation",
+    "source": "legal_obligation_individual_rights",
+    "target": "right_to_retification",
+    "mandatory": false,
+    "weight": 1,
+    "uid": "legal_obligation_individual_rights->right_to_retification"
+  },
+  {
+    "type": "node",
+    "label": "legal obligation individual rights",
+    "ntype": "GATEWAY",
+    "exclusive": false,
+    "inclusive": false,
+    "parallel": true,
+    "min": "NA",
+    "uid": "legal_obligation_individual_rights"
+  },
+  {
+    "type": "relation",
+    "target": "legitimate_interest_individual_rights",
+    "source": "legitimate_interest",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "legitimate_interest->legitimate_interest_individual_rights"
+  },
+  {
+    "type": "relation",
+    "source": "legitimate_interest",
+    "target": "legitimate_interest_settings",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "legitimate_interest->legitimate_interest_settings"
+  },
+  {
+    "type": "node",
+    "label": "legitimate interest",
+    "principle": false,
+    "lawfulbasis": true,
+    "individualright": false,
+    "uid": "legitimate_interest",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "legitimate interest impact assessment",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "legitimate_interest_impact_assessment",
+    "kg": "rkg",
+    "alternativelabels": [
+      "LIA"
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "legitimate_interest_individual_rights",
+    "target": "right_of_access",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "legitimate_interest_individual_rights->right_of_access"
+  },
+  {
+    "type": "relation",
+    "source": "legitimate_interest_individual_rights",
+    "target": "right_to_erasure",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "legitimate_interest_individual_rights->right_to_erasure"
+  },
+  {
+    "type": "relation",
+    "source": "legitimate_interest_individual_rights",
+    "target": "right_to_object",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "legitimate_interest_individual_rights->right_to_object"
+  },
+  {
+    "type": "relation",
+    "source": "legitimate_interest_individual_rights",
+    "target": "right_to_restrict_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "legitimate_interest_individual_rights->right_to_restrict_processing"
+  },
+  {
+    "type": "relation",
+    "source": "legitimate_interest_individual_rights",
+    "target": "right_to_retification",
+    "mandatory": false,
+    "weight": 1,
+    "uid": "legitimate_interest_individual_rights->right_to_retification"
+  },
+  {
+    "type": "node",
+    "label": "legitimate interest individual rights",
+    "ntype": "GATEWAY",
+    "exclusive": false,
+    "inclusive": false,
+    "parallel": true,
+    "min": "NA",
+    "uid": "legitimate_interest_individual_rights"
+  },
+  {
+    "type": "relation",
+    "target": "state",
+    "source": "legitimate_interest_settings",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "legitimate_interest_settings->state"
+  },
+  {
+    "type": "node",
+    "label": "legitimate interest settings",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "legitimate_interest_settings",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "license",
+    "ntype": "PROPERTY",
+    "uid": "license"
+  },
+  {
+    "type": "node",
+    "label": "list based access control",
+    "ntype": "PROPERTY",
+    "uid": "list_based_access_control"
+  },
+  {
+    "type": "node",
+    "label": "local",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "local",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "location history",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "location_history",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "login",
+    "target": "anonymous_login",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "login->anonymous_login"
+  },
+  {
+    "type": "relation",
+    "target": "credentials",
+    "source": "login",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "login->credentials"
+  },
+  {
+    "type": "node",
+    "label": "login",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "login",
+    "kg": "rkg",
+    "alternativelabels": [
+      "signin",
+      "sign in",
+      "sign up",
+      "log in"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "logout",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "logout",
+    "kg": "rkg",
+    "alternativelabels": [
+      "signout",
+      "sign out",
+      "log out"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "maintain credit checking database",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "maintain_credit_checking_database",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "maintain fraud database",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "maintain_fraud_database",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "mandatory access control",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "mandatory_access_control",
+    "kg": "rkg",
+    "alternativelabels": [
+      "Biba",
+      "Bell-LaPadula",
+      "Clark–Wilson model",
+      "Graham–Denning model",
+      "Brewer and Nash model",
+      "Chinese wall model",
+      "Harrison–Ruzzo–Ullman model"
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "marketing",
+    "target": "advertising",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "marketing->advertising"
+  },
+  {
+    "type": "relation",
+    "target": "direct_marketing",
+    "source": "marketing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "marketing->direct_marketing"
+  },
+  {
+    "type": "relation",
+    "target": "public_relations",
+    "source": "marketing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "marketing->public_relations"
+  },
+  {
+    "type": "relation",
+    "target": "social_media_marketing",
+    "source": "marketing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "marketing->social_media_marketing"
+  },
+  {
+    "type": "node",
+    "label": "marketing",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "marketing",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "masking",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "masking",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "md5",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "md5",
+    "kg": "rkg",
+    "alternativelabels": [
+      "Botan",
+      "Bouncy Castle",
+      "cryptlib",
+      "Crypto++",
+      "Libgcrypt",
+      "Nettle",
+      "OpenSSL",
+      "wolfSSL"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "member partner management",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "member_partner_management",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "message_digest",
+    "target": "aead",
+    "mandatory": false,
+    "weight": "1",
+    "uid": "message_digest->aead"
+  },
+  {
+    "type": "relation",
+    "source": "message_digest",
+    "target": "blake",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "message_digest->blake"
+  },
+  {
+    "type": "relation",
+    "source": "message_digest",
+    "target": "hmac-md5",
+    "mandatory": false,
+    "weight": "1",
+    "uid": "message_digest->hmac-md5"
+  },
+  {
+    "type": "relation",
+    "source": "message_digest",
+    "target": "hmac-sha256",
+    "mandatory": false,
+    "weight": "1",
+    "uid": "message_digest->hmac-sha256"
+  },
+  {
+    "type": "relation",
+    "source": "message_digest",
+    "target": "md5",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "message_digest->md5"
+  },
+  {
+    "type": "relation",
+    "source": "message_digest",
+    "target": "ripemd",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "message_digest->ripemd"
+  },
+  {
+    "type": "relation",
+    "source": "message_digest",
+    "target": "sha1",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "message_digest->sha1"
+  },
+  {
+    "type": "relation",
+    "source": "message_digest",
+    "target": "sha2",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "message_digest->sha2"
+  },
+  {
+    "type": "relation",
+    "source": "message_digest",
+    "target": "sha3",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "message_digest->sha3"
+  },
+  {
+    "type": "relation",
+    "source": "message_digest",
+    "target": "whirlpool",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "message_digest->whirlpool"
+  },
+  {
+    "type": "node",
+    "label": "message digest",
+    "ntype": "PROPERTY",
+    "uid": "message_digest"
+  },
+  {
+    "type": "node",
+    "label": "mouse movement",
+    "ntype": "PROPERTY",
+    "uid": "mouse_movement"
+  },
+  {
+    "type": "relation",
+    "target": "single_sign-on",
+    "source": "multi-factor_authentication",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "multi-factor_authentication->single_sign-on"
+  },
+  {
+    "type": "node",
+    "label": "multi-factor authentication",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "multi-factor_authentication",
+    "kg": "rkg",
+    "alternativelabels": [
+      "2FA",
+      "Two-Factor Authentication",
+      "multi factor",
+      "mfa"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "nda",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "nda",
+    "kg": "rkg",
+    "alternativelabels": [
+      "nondisclosure agreement",
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "necessity test",
+    "ntype": "PROPERTY",
+    "uid": "necessity_test"
+  },
+  {
+    "type": "node",
+    "label": "network sniffer",
+    "ntype": "PROPERTY",
+    "uid": "network_sniffer"
+  },
+  {
+    "type": "node",
+    "label": "non-commercial research",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "non-commercial_research",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "noninfringement",
+    "ntype": "PROPERTY",
+    "uid": "noninfringement"
+  },
+  {
+    "type": "node",
+    "label": "notification",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "notification",
+    "kg": "rkg",
+    "alternativelabels": [
+      "notifies"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "obfuscation",
+    "ntype": "PROPERTY",
+    "uid": "obfuscation"
+  },
+  {
+    "type": "node",
+    "label": "odour",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "odour",
+    "kg": "rkg",
+    "alternativelabels": [
+      "odor"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "one-way encryption",
+    "ntype": "PROPERTY",
+    "uid": "one-way_encryption"
+  },
+  {
+    "type": "relation",
+    "source": "optimisation_for_consumer",
+    "target": "optimise_user_interface",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "optimisation_for_consumer->optimise_user_interface"
+  },
+  {
+    "type": "node",
+    "label": "optimisation for consumer",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "optimisation_for_consumer",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "optimisation_for_controller",
+    "target": "improve_existing_products_and_services",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "optimisation_for_controller->improve_existing_products_and_services"
+  },
+  {
+    "type": "relation",
+    "source": "optimisation_for_controller",
+    "target": "improve_internal_crm_processes",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "optimisation_for_controller->improve_internal_crm_processes"
+  },
+  {
+    "type": "relation",
+    "source": "optimisation_for_controller",
+    "target": "increase_service_robustness",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "optimisation_for_controller->increase_service_robustness"
+  },
+  {
+    "type": "relation",
+    "source": "optimisation_for_controller",
+    "target": "internal_resource_optimisation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "optimisation_for_controller->internal_resource_optimisation"
+  },
+  {
+    "type": "node",
+    "label": "optimisation for controller",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "optimisation_for_controller",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "optimise user interface",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "optimise_user_interface",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "organisation_governance",
+    "target": "member_partner_management",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "organisation_governance->member_partner_management"
+  },
+  {
+    "type": "relation",
+    "source": "organisation_governance",
+    "target": "organisational_compliance_management",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "organisation_governance->organisational_compliance_management"
+  },
+  {
+    "type": "relation",
+    "source": "organisation_governance",
+    "target": "organisational_risk_management",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "organisation_governance->organisational_risk_management"
+  },
+  {
+    "type": "node",
+    "label": "organisation governance",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "organisation_governance",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "organisational compliance management",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "organisational_compliance_management",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "organisational risk management",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "organisational_risk_management",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "palm_veins",
+    "source": "palm",
+    "weight": 1,
+    "kg": "pkg",
+    "uid": "palm->palm_veins"
+  },
+  {
+    "type": "node",
+    "label": "palm",
+    "ntype": "PROPERTY",
+    "uid": "palm"
+  },
+  {
+    "type": "node",
+    "label": "palm veins",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "palm_veins",
+    "kg": "rkg"
+  },
+  {
+    "type": "node",
+    "label": "parental control",
+    "ntype": "PROPERTY",
+    "uid": "parental_control"
+  },
+  {
+    "type": "node",
+    "label": "passport",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "passport",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "strong_password",
+    "source": "password",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "password->strong_password"
+  },
+  {
+    "type": "relation",
+    "target": "weak_password",
+    "source": "password",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "password->weak_password"
+  },
+  {
+    "type": "node",
+    "label": "password",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "password",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "password reset",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "password_reset",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "pay",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "pay",
+    "kg": "rkg",
+    "alternativelabels": [
+      "payment",
+      "renumeration",
+      "fee",
+      "emolument"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "permission notice",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "permission_notice",
+    "kg": "rkg",
+    "alternativelabels": [
+      "permission"
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "persistence",
+    "target": "local",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "persistence->local"
+  },
+  {
+    "type": "relation",
+    "source": "persistence",
+    "target": "session",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "persistence->session"
+  },
+  {
+    "type": "node",
+    "label": "persistence",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "persistence",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "personalisation",
+    "target": "personalised_advertising",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "personalisation->personalised_advertising"
+  },
+  {
+    "type": "relation",
+    "source": "personalisation",
+    "target": "service_personalisation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "personalisation->service_personalisation"
+  },
+  {
+    "type": "node",
+    "label": "personalisation",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "personalisation",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "personalised_advertising",
+    "target": "targeted_advertising",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "personalised_advertising->targeted_advertising"
+  },
+  {
+    "type": "node",
+    "label": "personalised advertising",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "personalised_advertising",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "personalised benefits",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "personalised_benefits",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "personnel hiring",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "personnel_hiring",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "personnel_management",
+    "target": "personnel_hiring",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "personnel_management->personnel_hiring"
+  },
+  {
+    "type": "relation",
+    "source": "personnel_management",
+    "target": "personnel_payment",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "personnel_management->personnel_payment"
+  },
+  {
+    "type": "node",
+    "label": "personnel management",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "personnel_management",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "personnel payment",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "personnel_payment",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "pin code",
+    "ntype": "PROPERTY",
+    "uid": "pin_code"
+  },
+  {
+    "type": "node",
+    "label": "privacy impact assessment",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "privacy_impact_assessment",
+    "kg": "rkg",
+    "alternativelabels": [
+      "PIA"
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "controller",
+    "source": "privacy_notice",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "privacy_notice->controller"
+  },
+  {
+    "type": "relation",
+    "source": "privacy_notice",
+    "target": "international_transfer",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "privacy_notice->international_transfer"
+  },
+  {
+    "type": "relation",
+    "source": "privacy_notice",
+    "target": "lawful_basis",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "privacy_notice->lawful_basis"
+  },
+  {
+    "type": "relation",
+    "target": "processor",
+    "source": "privacy_notice",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "privacy_notice->processor"
+  },
+  {
+    "type": "relation",
+    "target": "purpose_limitation",
+    "source": "privacy_notice",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "privacy_notice->purpose_limitation"
+  },
+  {
+    "type": "relation",
+    "target": "representative",
+    "source": "privacy_notice",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "privacy_notice->representative"
+  },
+  {
+    "type": "relation",
+    "source": "privacy_notice",
+    "target": "storage_limitation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "privacy_notice->storage_limitation"
+  },
+  {
+    "type": "node",
+    "label": "privacy notice",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "privacy_notice",
+    "kg": "rkg",
+    "alternativelabels": [
+      "privacy policy"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "private key",
+    "ntype": "PROPERTY",
+    "uid": "private_key"
+  },
+  {
+    "type": "relation",
+    "source": "processor",
+    "target": "first_party_processor",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "processor->first_party_processor"
+  },
+  {
+    "type": "relation",
+    "source": "processor",
+    "target": "third_party_processor",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "processor->third_party_processor"
+  },
+  {
+    "type": "node",
+    "label": "processor",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "processor",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "profiling",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "profiling",
+    "kg": "rkg",
+    "alternativelabels": [
+      "profile"
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "pseudonymisation",
+    "target": "encryption",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "pseudonymisation->encryption"
+  },
+  {
+    "type": "relation",
+    "target": "hashing",
+    "source": "pseudonymisation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "pseudonymisation->hashing"
+  },
+  {
+    "type": "relation",
+    "source": "pseudonymisation",
+    "target": "masking",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "pseudonymisation->masking"
+  },
+  {
+    "type": "relation",
+    "source": "pseudonymisation",
+    "target": "scrambling",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "pseudonymisation->scrambling"
+  },
+  {
+    "type": "relation",
+    "source": "pseudonymisation",
+    "target": "tokenisation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "pseudonymisation->tokenisation"
+  },
+  {
+    "type": "node",
+    "label": "pseudonymisation",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "pseudonymisation",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "public_interest_individual_rights",
+    "source": "public_interest",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "public_interest->public_interest_individual_rights"
+  },
+  {
+    "type": "node",
+    "label": "public interest",
+    "principle": false,
+    "lawfulbasis": true,
+    "individualright": false,
+    "uid": "public_interest",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "public_interest_individual_rights",
+    "target": "right_of_access",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "public_interest_individual_rights->right_of_access"
+  },
+  {
+    "type": "relation",
+    "source": "public_interest_individual_rights",
+    "target": "right_to_automated_decision_making",
+    "mandatory": false,
+    "weight": 1,
+    "uid": "public_interest_individual_rights->right_to_automated_decision_making"
+  },
+  {
+    "type": "relation",
+    "source": "public_interest_individual_rights",
+    "target": "right_to_object",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "public_interest_individual_rights->right_to_object"
+  },
+  {
+    "type": "relation",
+    "source": "public_interest_individual_rights",
+    "target": "right_to_restrict_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "public_interest_individual_rights->right_to_restrict_processing"
+  },
+  {
+    "type": "relation",
+    "source": "public_interest_individual_rights",
+    "target": "right_to_retification",
+    "mandatory": false,
+    "weight": 1,
+    "uid": "public_interest_individual_rights->right_to_retification"
+  },
+  {
+    "type": "node",
+    "label": "public interest individual rights",
+    "ntype": "GATEWAY",
+    "exclusive": false,
+    "inclusive": false,
+    "parallel": true,
+    "min": "NA",
+    "uid": "public_interest_individual_rights"
+  },
+  {
+    "type": "node",
+    "label": "public key",
+    "ntype": "PROPERTY",
+    "uid": "public_key"
+  },
+  {
+    "type": "node",
+    "label": "public relations",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "public_relations",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "account_management",
+    "source": "purpose_for_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "purpose_for_processing->account_management"
+  },
+  {
+    "type": "relation",
+    "target": "communication_management",
+    "source": "purpose_for_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "purpose_for_processing->communication_management"
+  },
+  {
+    "type": "relation",
+    "target": "customer_management",
+    "source": "purpose_for_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "purpose_for_processing->customer_management"
+  },
+  {
+    "type": "relation",
+    "target": "enforce_security",
+    "source": "purpose_for_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "purpose_for_processing->enforce_security"
+  },
+  {
+    "type": "relation",
+    "target": "human_resource_management",
+    "source": "purpose_for_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "purpose_for_processing->human_resource_management"
+  },
+  {
+    "type": "relation",
+    "target": "legal_compliance",
+    "source": "purpose_for_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "purpose_for_processing->legal_compliance"
+  },
+  {
+    "type": "relation",
+    "target": "marketing",
+    "source": "purpose_for_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "purpose_for_processing->marketing"
+  },
+  {
+    "type": "relation",
+    "target": "organisation_governance",
+    "source": "purpose_for_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "purpose_for_processing->organisation_governance"
+  },
+  {
+    "type": "relation",
+    "target": "personalisation",
+    "source": "purpose_for_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "purpose_for_processing->personalisation"
+  },
+  {
+    "type": "relation",
+    "target": "record_management",
+    "source": "purpose_for_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "purpose_for_processing->record_management"
+  },
+  {
+    "type": "relation",
+    "target": "research_and_development",
+    "source": "purpose_for_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "purpose_for_processing->research_and_development"
+  },
+  {
+    "type": "relation",
+    "target": "service_provision",
+    "source": "purpose_for_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "purpose_for_processing->service_provision"
+  },
+  {
+    "type": "relation",
+    "target": "vendor_management",
+    "source": "purpose_for_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "purpose_for_processing->vendor_management"
+  },
+  {
+    "type": "node",
+    "label": "purpose for processing",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "purpose_for_processing",
+    "kg": "rkg",
+    "alternativelabels": [
+      "purpose"
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "purpose_limitation",
+    "target": "purpose_for_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "purpose_limitation->purpose_for_processing"
+  },
+  {
+    "type": "node",
+    "label": "purpose limitation",
+    "ntype": "GATEWAY",
+    "exclusive": false,
+    "inclusive": false,
+    "parallel": true,
+    "min": "NA",
+    "uid": "purpose_limitation",
+    "principle": true
+  },
+  {
+    "type": "node",
+    "label": "quarantine",
+    "ntype": "PROPERTY",
+    "uid": "quarantine"
+  },
+  {
+    "type": "node",
+    "label": "randomization",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "randomization",
+    "kg": "rkg",
+    "alternativelabels": [
+      "randomizer",
+      "noise",
+      "permutation",
+      "perturbing"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "read access",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "read_access",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "record management",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "record_management",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "recovery email",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "recovery_email",
+    "kg": "rkg",
+    "alternativelabels": [
+      "change email"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "register",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "register",
+    "kg": "rkg",
+    "alternativelabels": [
+      "registration"
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "representative",
+    "target": "data_protection_officer",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "representative->data_protection_officer"
+  },
+  {
+    "type": "node",
+    "label": "representative",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "representative",
+    "kg": "rkg",
+    "alternativelabels": [
+      "contact"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "requested",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "requested",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "requested_service_provision",
+    "target": "delivery_of_goods",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "requested_service_provision->delivery_of_goods"
+  },
+  {
+    "type": "node",
+    "label": "requested service provision",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "requested_service_provision",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "research_and_development",
+    "target": "academic_research",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "research_and_development->academic_research"
+  },
+  {
+    "type": "relation",
+    "source": "research_and_development",
+    "target": "commercial_research",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "research_and_development->commercial_research"
+  },
+  {
+    "type": "relation",
+    "source": "research_and_development",
+    "target": "non-commercial_research",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "research_and_development->non-commercial_research"
+  },
+  {
+    "type": "node",
+    "label": "research and development",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "research_and_development",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "retention period",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "retention_period",
+    "kg": "rkg",
+    "alternativelabels": [
+      "duration",
+      "retention schedules",
+      "retention"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "retina",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "retina",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "right_of_access",
+    "target": "access_control",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "right_of_access->access_control"
+  },
+  {
+    "type": "node",
+    "label": "right of access",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": true,
+    "uid": "right_of_access",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "right to automated decision making",
+    "ntype": "GATEWAY",
+    "exclusive": false,
+    "inclusive": false,
+    "parallel": true,
+    "min": "NA",
+    "uid": "right_to_automated_decision_making",
+    "individualright": true
+  },
+  {
+    "type": "relation",
+    "source": "right_to_be_informed",
+    "target": "notification",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "right_to_be_informed->notification"
+  },
+  {
+    "type": "node",
+    "label": "right to be informed",
+    "ntype": "GATEWAY",
+    "exclusive": false,
+    "inclusive": false,
+    "parallel": true,
+    "min": "NA",
+    "uid": "right_to_be_informed",
+    "individualright": true
+  },
+  {
+    "type": "relation",
+    "source": "right_to_data_portability",
+    "target": "clone",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "right_to_data_portability->clone"
+  },
+  {
+    "type": "relation",
+    "source": "right_to_data_portability",
+    "target": "download",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "right_to_data_portability->download"
+  },
+  {
+    "type": "relation",
+    "source": "right_to_data_portability",
+    "target": "upload",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "right_to_data_portability->upload"
+  },
+  {
+    "type": "node",
+    "label": "right to data portability",
+    "ntype": "GATEWAY",
+    "exclusive": false,
+    "inclusive": false,
+    "parallel": true,
+    "min": "NA",
+    "uid": "right_to_data_portability",
+    "individualright": true
+  },
+  {
+    "type": "relation",
+    "source": "right_to_erasure",
+    "target": "data_deletion",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "right_to_erasure->data_deletion"
+  },
+  {
+    "type": "node",
+    "label": "right to erasure",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": true,
+    "uid": "right_to_erasure",
+    "kg": "rkg",
+    "alternativelabels": [
+      "right to be forgotten"
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "right_to_object",
+    "target": "denied",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "right_to_object->denied"
+  },
+  {
+    "type": "node",
+    "label": "right to object",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": true,
+    "uid": "right_to_object",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "right_to_restrict_processing",
+    "target": "access_control",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "right_to_restrict_processing->access_control"
+  },
+  {
+    "type": "node",
+    "label": "right to restrict processing",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": true,
+    "uid": "right_to_restrict_processing",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "right_to_retification",
+    "target": "update",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "right_to_retification->update"
+  },
+  {
+    "type": "node",
+    "label": "right to retification",
+    "ntype": "GATEWAY",
+    "exclusive": false,
+    "inclusive": false,
+    "parallel": true,
+    "min": "NA",
+    "uid": "right_to_retification",
+    "individualright": true
+  },
+  {
+    "type": "node",
+    "label": "ripemd",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "ripemd",
+    "kg": "rkg",
+    "alternativelabels": [
+      "Botan",
+      "Bouncy Castle",
+      "Cryptlib",
+      "Crypto++",
+      "Libgcrypt",
+      "mbed TLS",
+      "Nettle",
+      "OpenSSL",
+      "wolfSSL"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "role based access control",
+    "ntype": "PROPERTY",
+    "uid": "role_based_access_control",
+    "sameas": "RBAC,rule based access control,rb-rbac,profile based access control"
+  },
+  {
+    "type": "node",
+    "label": "sam template",
+    "ntype": "PROPERTY",
+    "uid": "sam_template"
+  },
+  {
+    "type": "node",
+    "label": "sandbox",
+    "ntype": "PROPERTY",
+    "uid": "sandbox"
+  },
+  {
+    "type": "node",
+    "label": "scrambling",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "scrambling",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "secret key",
+    "ntype": "PROPERTY",
+    "uid": "secret_key"
+  },
+  {
+    "type": "relation",
+    "source": "secrets_manager",
+    "target": "sam_template",
+    "mandatory": false,
+    "weight": "1",
+    "uid": "secrets_manager->sam_template"
+  },
+  {
+    "type": "node",
+    "label": "secrets manager",
+    "ntype": "PROPERTY",
+    "uid": "secrets_manager"
+  },
+  {
+    "type": "relation",
+    "target": "cbc",
+    "source": "secure_hash",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "secure_hash->cbc"
+  },
+  {
+    "type": "relation",
+    "target": "ciphertext",
+    "source": "secure_hash",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "secure_hash->ciphertext"
+  },
+  {
+    "type": "relation",
+    "target": "decipher",
+    "source": "secure_hash",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "secure_hash->decipher"
+  },
+  {
+    "type": "relation",
+    "target": "message_digest",
+    "source": "secure_hash",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "secure_hash->message_digest"
+  },
+  {
+    "type": "node",
+    "label": "secure hash",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "secure_hash",
+    "kg": "rkg",
+    "alternativelabels": [
+      "hash"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "secure mime",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "secure_mime",
+    "kg": "rkg",
+    "alternativelabels": [
+      "vpn"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "secured multiparty Computation",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "secured_multiparty_Computation",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "sell data to third parties",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "sell_data_to_third_parties",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "sell insights from data",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "sell_insights_from_data",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "sell product to data subject",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "sell_product_to_data_subject",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "sell_products",
+    "target": "sell_data_to_third_parties",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "sell_products->sell_data_to_third_parties"
+  },
+  {
+    "type": "relation",
+    "source": "sell_products",
+    "target": "sell_insights_from_data",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "sell_products->sell_insights_from_data"
+  },
+  {
+    "type": "relation",
+    "source": "sell_products",
+    "target": "sell_product_to_data_subject",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "sell_products->sell_product_to_data_subject"
+  },
+  {
+    "type": "node",
+    "label": "sell products",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "sell_products",
+    "kg": "rkg",
+    "alternativelabels": [
+      "sales"
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "service_optimization",
+    "target": "optimisation_for_consumer",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "service_optimization->optimisation_for_consumer"
+  },
+  {
+    "type": "relation",
+    "source": "service_optimization",
+    "target": "optimisation_for_controller",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "service_optimization->optimisation_for_controller"
+  },
+  {
+    "type": "node",
+    "label": "service optimization",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "service_optimization",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "service_personalisation",
+    "target": "create_personalised_recommendations",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "service_personalisation->create_personalised_recommendations"
+  },
+  {
+    "type": "relation",
+    "source": "service_personalisation",
+    "target": "personalised_benefits",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "service_personalisation->personalised_benefits"
+  },
+  {
+    "type": "relation",
+    "source": "service_personalisation",
+    "target": "user_interface_personalisation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "service_personalisation->user_interface_personalisation"
+  },
+  {
+    "type": "node",
+    "label": "service personalisation",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "service_personalisation",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "service_provision",
+    "target": "authentication",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "service_provision->authentication"
+  },
+  {
+    "type": "relation",
+    "source": "service_provision",
+    "target": "identify_rectify_impairments",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "service_provision->identify_rectify_impairments"
+  },
+  {
+    "type": "relation",
+    "source": "service_provision",
+    "target": "pay",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "service_provision->pay"
+  },
+  {
+    "type": "relation",
+    "source": "service_provision",
+    "target": "requested_service_provision",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "service_provision->requested_service_provision"
+  },
+  {
+    "type": "relation",
+    "source": "service_provision",
+    "target": "sell_products",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "service_provision->sell_products"
+  },
+  {
+    "type": "relation",
+    "source": "service_provision",
+    "target": "service_optimization",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "service_provision->service_optimization"
+  },
+  {
+    "type": "relation",
+    "source": "service_provision",
+    "target": "service_personalisation",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "service_provision->service_personalisation"
+  },
+  {
+    "type": "relation",
+    "source": "service_provision",
+    "target": "service_record_management",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "service_provision->service_record_management"
+  },
+  {
+    "type": "relation",
+    "source": "service_provision",
+    "target": "service_usage_analytics",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "service_provision->service_usage_analytics"
+  },
+  {
+    "type": "relation",
+    "source": "service_provision",
+    "target": "technical_service_provision",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "service_provision->technical_service_provision"
+  },
+  {
+    "type": "node",
+    "label": "service provision",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "service_provision",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "service record management",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "service_record_management",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "service usage analytics",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "service_usage_analytics",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "session",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "session",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "sha1",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "sha1",
+    "kg": "rkg",
+    "alternativelabels": [
+      "Botan",
+      "Bouncy Castle",
+      "cryptlib",
+      "Crypto++",
+      "Libgcrypt",
+      "Mbed TLS",
+      "Nettle",
+      "LibreSSL",
+      "OpenSSL",
+      "GnuTLS"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "sha2",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "sha2",
+    "kg": "rkg",
+    "alternativelabels": [
+      "Botan",
+      "Bouncy Castle",
+      "Cryptlib",
+      "Crypto++",
+      "Libgcrypt",
+      "Mbed TLS",
+      "libsodium",
+      "Nettle",
+      "LibreSSL",
+      "OpenSSL",
+      "GnuTLS",
+      "wolfSSL"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "sha3",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "sha3",
+    "kg": "rkg",
+    "alternativelabels": [
+      "Rust sha3",
+      "Botan",
+      "Bouncy Castle",
+      "Crypto++",
+      "Libgcrypt",
+      "Nettle",
+      "OpenSSL",
+      "wolfSSL",
+      "MIRACL Cryptographic SDK",
+      "Golang x",
+      "crypto",
+      "libkeccak"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "signature",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "signature",
+    "kg": "rkg",
+    "alternativelabels": [
+      "signature recognition"
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "password",
+    "source": "single_factor_authentication",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "single_factor_authentication->password"
+  },
+  {
+    "type": "relation",
+    "target": "username",
+    "source": "single_factor_authentication",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "single_factor_authentication->username"
+  },
+  {
+    "type": "node",
+    "label": "single factor authentication",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "single_factor_authentication",
+    "kg": "rkg",
+    "alternativelabels": [
+      "single factor",
+      "SFA"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "single sign-on",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "single_sign-on",
+    "kg": "rkg",
+    "alternativelabels": [
+      "federated identity",
+      "signond",
+      "libaccounts-glib",
+      "libaccounts-qt",
+      "libsignon-glib",
+      "Bitium",
+      "django-mama-cas",
+      "django-cas-ng",
+      "Cosign",
+      "shibboleth",
+      "OpenAthens",
+      "FreeIPA",
+      "IceWall SSO",
+      "Imprivata OneSign",
+      "Janrain SSO",
+      "JOSSO",
+      "Keycloak",
+      "LoginRadius",
+      "myOneLogin",
+      "NetIQ",
+      "Numina",
+      "OpenAM",
+      "WSO2",
+      "ZXID"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "social media marketing",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "social_media_marketing",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "speaker",
+    "ntype": "PROPERTY",
+    "uid": "speaker"
+  },
+  {
+    "type": "node",
+    "label": "ssl",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "ssl",
+    "kg": "rkg",
+    "alternativelabels": [
+      "secured socket layer"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "start date",
+    "ntype": "PROPERTY",
+    "uid": "start_date"
+  },
+  {
+    "type": "relation",
+    "target": "acknowledged",
+    "source": "state",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "state->acknowledged"
+  },
+  {
+    "type": "relation",
+    "source": "state",
+    "target": "active",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "state->active"
+  },
+  {
+    "type": "relation",
+    "source": "state",
+    "target": "cancelled",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "state->cancelled"
+  },
+  {
+    "type": "relation",
+    "source": "state",
+    "target": "denied",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "state->denied"
+  },
+  {
+    "type": "relation",
+    "source": "state",
+    "target": "disabled",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "state->disabled"
+  },
+  {
+    "type": "relation",
+    "source": "state",
+    "target": "enabled",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "state->enabled"
+  },
+  {
+    "type": "relation",
+    "source": "state",
+    "target": "expired",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "state->expired"
+  },
+  {
+    "type": "relation",
+    "source": "state",
+    "target": "granted",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "state->granted"
+  },
+  {
+    "type": "relation",
+    "target": "inactive",
+    "source": "state",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "state->inactive"
+  },
+  {
+    "type": "relation",
+    "target": "requested",
+    "source": "state",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "state->requested"
+  },
+  {
+    "type": "relation",
+    "target": "withdrawn",
+    "source": "state",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "state->withdrawn"
+  },
+  {
+    "type": "node",
+    "label": "state",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "state",
+    "kg": "rkg",
+    "alternativelabels": [
+      "lawful basis state"
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "steganography",
+    "target": "obfuscation",
+    "mandatory": false,
+    "weight": "1",
+    "uid": "steganography->obfuscation"
+  },
+  {
+    "type": "node",
+    "label": "steganography",
+    "ntype": "PROPERTY",
+    "uid": "steganography"
+  },
+  {
+    "type": "relation",
+    "source": "storage_limitation",
+    "target": "access_control",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "storage_limitation->access_control"
+  },
+  {
+    "type": "relation",
+    "target": "data_retention_policy",
+    "source": "storage_limitation",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "storage_limitation->data_retention_policy"
+  },
+  {
+    "type": "relation",
+    "source": "storage_limitation",
+    "target": "expiration_date",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "storage_limitation->expiration_date"
+  },
+  {
+    "type": "relation",
+    "source": "storage_limitation",
+    "target": "persistence",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "storage_limitation->persistence"
+  },
+  {
+    "type": "relation",
+    "source": "storage_limitation",
+    "target": "unsubscribe",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "storage_limitation->unsubscribe"
+  },
+  {
+    "type": "node",
+    "label": "storage limitation",
+    "principle": true,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "storage_limitation",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "strong password",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "strong_password",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "substitution",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "substitution",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "targeted advertising",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "targeted_advertising",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "technical service provision",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "technical_service_provision",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "third party processor",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "third_party_processor",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "threat monitoring",
+    "ntype": "PROPERTY",
+    "uid": "threat_monitoring"
+  },
+  {
+    "type": "relation",
+    "target": "key_exchange",
+    "source": "tls",
+    "weight": "1",
+    "kg": "rkg",
+    "uid": "tls->key_exchange"
+  },
+  {
+    "type": "node",
+    "label": "tls-ssl certificate",
+    "ntype": "PROPERTY",
+    "uid": "tls-ssl_certificate"
+  },
+  {
+    "type": "node",
+    "label": "tls",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "tls",
+    "kg": "rkg",
+    "alternativelabels": [
+      "https",
+      "handshake protocols",
+      "asymmetric cipher",
+      "symmetric cipher",
+      "BoringSSL",
+      "Botan",
+      "BSAFE SSL-J",
+      "cryptlib",
+      "Indy",
+      "GnuTLS",
+      "LibreSSL",
+      "MatrixSSL",
+      "mbed TLS",
+      "OpenSSL",
+      "SChannel",
+      "wolfSSL",
+      "CyaSSL",
+      "Bouncy Castle",
+      "s2n"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "tokenisation",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "tokenisation",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "traffic analysis",
+    "ntype": "PROPERTY",
+    "uid": "traffic_analysis"
+  },
+  {
+    "type": "relation",
+    "source": "transparency",
+    "target": "privacy_notice",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "transparency->privacy_notice"
+  },
+  {
+    "type": "node",
+    "label": "transparency",
+    "ntype": "GATEWAY",
+    "exclusive": false,
+    "inclusive": false,
+    "parallel": true,
+    "min": "NA",
+    "uid": "transparency",
+    "principle": true
+  },
+  {
+    "type": "node",
+    "label": "typing",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "typing",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "unsubscribe",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "unsubscribe",
+    "kg": "rkg",
+    "alternativelabels": [
+      "unlink"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "update",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "update",
+    "kg": "rkg",
+    "alternativelabels": [
+      "modify"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "upload",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "upload",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "user interface personalisation",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "user_interface_personalisation",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "username",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "username",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "vein",
+    "ntype": "PROPERTY",
+    "uid": "vein"
+  },
+  {
+    "type": "relation",
+    "source": "vendor_management",
+    "target": "vendor_payment",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "vendor_management->vendor_payment"
+  },
+  {
+    "type": "relation",
+    "source": "vendor_management",
+    "target": "vendor_record_management",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "vendor_management->vendor_record_management"
+  },
+  {
+    "type": "relation",
+    "source": "vendor_management",
+    "target": "vendor_selection_assessment",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "vendor_management->vendor_selection_assessment"
+  },
+  {
+    "type": "node",
+    "label": "vendor management",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "vendor_management",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "vendor payment",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "vendor_payment",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "vendor record management",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "vendor_record_management",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "vendor selection assessment",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "vendor_selection_assessment",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "verification Code",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "verification_Code",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "target": "vital_interest_individual_rights",
+    "source": "vital_interest",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "vital_interest->vital_interest_individual_rights"
+  },
+  {
+    "type": "node",
+    "label": "vital interest",
+    "principle": false,
+    "lawfulbasis": true,
+    "individualright": false,
+    "uid": "vital_interest",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "vital_interest_individual_rights",
+    "target": "right_of_access",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "vital_interest_individual_rights->right_of_access"
+  },
+  {
+    "type": "relation",
+    "source": "vital_interest_individual_rights",
+    "target": "right_to_automated_decision_making",
+    "mandatory": false,
+    "weight": 1,
+    "uid": "vital_interest_individual_rights->right_to_automated_decision_making"
+  },
+  {
+    "type": "relation",
+    "source": "vital_interest_individual_rights",
+    "target": "right_to_erasure",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "vital_interest_individual_rights->right_to_erasure"
+  },
+  {
+    "type": "relation",
+    "source": "vital_interest_individual_rights",
+    "target": "right_to_restrict_processing",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "vital_interest_individual_rights->right_to_restrict_processing"
+  },
+  {
+    "type": "relation",
+    "source": "vital_interest_individual_rights",
+    "target": "right_to_retification",
+    "mandatory": false,
+    "weight": 1,
+    "uid": "vital_interest_individual_rights->right_to_retification"
+  },
+  {
+    "type": "node",
+    "label": "vital interest individual rights",
+    "ntype": "GATEWAY",
+    "exclusive": false,
+    "inclusive": false,
+    "parallel": true,
+    "min": "NA",
+    "uid": "vital_interest_individual_rights"
+  },
+  {
+    "type": "node",
+    "label": "voice",
+    "ntype": "PROPERTY",
+    "uid": "voice"
+  },
+  {
+    "type": "node",
+    "label": "warranties",
+    "ntype": "PROPERTY",
+    "uid": "warranties"
+  },
+  {
+    "type": "node",
+    "label": "weak password",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "weak_password",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "webid",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "webid",
+    "kg": "rkg",
+    "alternativelabels": [
+      "xwiki",
+      "clerezza",
+      "myopenlink",
+      "foaf-me",
+      "Drupal",
+      "elgg-lorea",
+      "Liferay",
+      "Sociddea",
+      "libAuthentication",
+      "Sommer foaf+ssl",
+      "Clerezza",
+      "ODS",
+      "mod_authn_webid",
+      "foaf-ssl ruby",
+      "ResourceMe login-webid",
+      "WebIDRealm",
+      "WebIDauth"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "whirlpool",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "whirlpool",
+    "kg": "rkg",
+    "alternativelabels": [
+      "FreeOTFE",
+      "TrueCrypt",
+      "VeraCrypt"
+    ]
+  },
+  {
+    "type": "node",
+    "label": "withdrawn",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "withdrawn",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "write access",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "write_access",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "node",
+    "label": "ws-authorization",
+    "ntype": "PROPERTY",
+    "uid": "ws-authorization"
+  },
+  {
+    "type": "node",
+    "label": "ws-federation",
+    "ntype": "PROPERTY",
+    "uid": "ws-federation"
+  },
+  {
+    "type": "node",
+    "label": "ws-policy",
+    "ntype": "PROPERTY",
+    "uid": "ws-policy"
+  },
+  {
+    "type": "node",
+    "label": "ws-privacy",
+    "ntype": "PROPERTY",
+    "uid": "ws-privacy"
+  },
+  {
+    "type": "node",
+    "label": "ws-secureconversation",
+    "ntype": "PROPERTY",
+    "uid": "ws-secureconversation"
+  },
+  {
+    "type": "relation",
+    "source": "ws-security",
+    "target": "ws-authorization",
+    "mandatory": false,
+    "weight": "1",
+    "uid": "ws-security->ws-authorization"
+  },
+  {
+    "type": "relation",
+    "source": "ws-security",
+    "target": "ws-federation",
+    "mandatory": false,
+    "weight": "1",
+    "uid": "ws-security->ws-federation"
+  },
+  {
+    "type": "relation",
+    "source": "ws-security",
+    "target": "ws-policy",
+    "mandatory": false,
+    "weight": "1",
+    "uid": "ws-security->ws-policy"
+  },
+  {
+    "type": "relation",
+    "source": "ws-security",
+    "target": "ws-privacy",
+    "mandatory": false,
+    "weight": "1",
+    "uid": "ws-security->ws-privacy"
+  },
+  {
+    "type": "relation",
+    "source": "ws-security",
+    "target": "ws-secureconversation",
+    "mandatory": false,
+    "weight": "1",
+    "uid": "ws-security->ws-secureconversation"
+  },
+  {
+    "type": "relation",
+    "source": "ws-security",
+    "target": "ws-trust",
+    "mandatory": false,
+    "weight": "1",
+    "uid": "ws-security->ws-trust"
+  },
+  {
+    "type": "node",
+    "label": "ws-security",
+    "ntype": "PROPERTY",
+    "uid": "ws-security"
+  },
+  {
+    "type": "node",
+    "label": "ws-trust",
+    "ntype": "PROPERTY",
+    "uid": "ws-trust"
+  },
+  {
+    "type": "node",
+    "label": "zero-knowledge proof",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "zero-knowledge_proof",
+    "kg": "rkg",
+    "alternativelabels": [
+      "Non-interactive zero-knowledge proof",
+      "NIZKs",
+      "blinding"
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "secrets_manager",
+    "target": "App_Secret",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "secrets_manager->App_Secret"
+  },
+  {
+    "type": "relation",
+    "source": "secrets_manager",
+    "target": "App_Secret",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "secrets_manager->App_Secret"
+  },
+  {
+    "type": "node",
+    "label": "app secret",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "app_secret",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "secrets_manager",
+    "target": "app_secret",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "secrets_manager->app_secret"
+  },
+  {
+    "type": "node",
+    "label": "permission",
+    "principle": false,
+    "lawfulbasis": false,
+    "individualright": false,
+    "uid": "permission",
+    "kg": "rkg",
+    "alternativelabels": [
+      ""
+    ]
+  },
+  {
+    "type": "relation",
+    "source": "access_control",
+    "target": "permission",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "access_control->permission"
+  },
+  {
+    "type": "relation",
+    "target": "permission_notice",
+    "source": "permission",
+    "weight": 1,
+    "kg": "rkg",
+    "uid": "permission->permission_notice"
+  }
+]

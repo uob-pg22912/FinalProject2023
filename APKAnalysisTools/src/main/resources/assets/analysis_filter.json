@@ -1,0 +1,67 @@
+{
+  "excludePackage": [
+    "java",
+    "javax",
+    "kotlin",
+    "kotlinx",
+    "android",
+    "androidx",
+    "com.android",
+    "com.google.android.material",
+    "com.google.errorprone",
+    "org.intellij.lang.annotations"
+  ],
+  "androidAPIPackage": [
+    "android",
+    "com.android"
+  ],
+  "excludeString": {
+    "numberPunctuationRatio": 0.75,
+    "minStringLength": 2,
+    "prefix": [
+      "com.google.android.material."
+    ],
+    "resId": [
+      "androidx_startup",
+      "m3_sys_motion_easing_emphasized",
+      "m3_sys_motion_easing_emphasized_accelerate",
+      "m3_sys_motion_easing_emphasized_decelerate",
+      "m3_sys_motion_easing_legacy",
+      "m3_sys_motion_easing_legacy_accelerate",
+      "m3_sys_motion_easing_legacy_decelerate",
+      "m3_sys_motion_easing_linear",
+      "m3_sys_motion_easing_standard",
+      "m3_sys_motion_easing_standard_accelerate",
+      "m3_sys_motion_easing_standard_decelerate",
+      "material_motion_easing_accelerated",
+      "material_motion_easing_decelerated",
+      "material_motion_easing_emphasized",
+      "material_motion_easing_linear",
+      "material_motion_easing_standard",
+      "m3_ref_typeface_brand_medium",
+      "m3_ref_typeface_brand_regular",
+      "m3_ref_typeface_plain_medium",
+      "m3_ref_typeface_plain_regular",
+      "mtrl_switch_thumb_path_checked",
+      "mtrl_switch_thumb_path_morphing",
+      "mtrl_switch_thumb_path_name",
+      "mtrl_switch_thumb_path_pressed",
+      "mtrl_switch_thumb_path_unchecked",
+      "mtrl_switch_track_decoration_path",
+      "mtrl_switch_track_path",
+      "path_password_eye_mask_visible"
+    ]
+  },
+  "excludeHosts": [
+    "schemas.android.com",
+    "schemas.xmlsoap.org",
+    "schemas.microsoft.com",
+    "schema.org",
+    "ns.adobe.com",
+    "www.example.com",
+    "example.com",
+    "hostname",
+    "www",
+    "undefined"
+  ]
+}
